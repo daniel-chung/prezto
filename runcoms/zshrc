@@ -21,7 +21,7 @@ eval "$(pyenv init -)"
 # eval "$(pyenv virtualenv-init -)"
 
 # Poetry
-export PATH="{$HOME}/.local/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 
 # Neovim
 alias vi="nvim"
